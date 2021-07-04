@@ -20,22 +20,6 @@ Here's the **most important step**: add the following lines inside the outermost
     ]
 ```
 
-```python
-for i in range(4):
-    print('Yes')
-```
-
-{% highlight javascript %}
-function sayHello(name) {
-  if (!name) {
-    console.log('Hello World');
-  } else {
-    console.log(`Hello ${name}`);
-  }  
-}  
-{% endhighlight %}
-
-
 Restart the VSCode and you should see virtual environments also appearing in the list where you used to select Python environment.  
 
 In this configuration file, you can also change the `python.defaultInterpreterPath` if needed to set a default python executable every time you 
