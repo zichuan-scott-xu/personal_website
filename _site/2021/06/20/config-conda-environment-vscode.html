@@ -30,28 +30,28 @@
   
 
   <!-- Primary Meta Tags -->
-  <title>Scott Xu | Blog</title>
-  <meta name="title" content="Scott Xu | Blog"/>
-  <meta name="description" content="Bay is a minimal Jekyll Theme."/>
+  <title>Scott Xu | How to config conda environment in VSCode Python extension?</title>
+  <meta name="title" content="Scott Xu | How to config conda environment in VSCode Python extension?"/>
+  <meta name="description" content="A look at an example post using Bay Jekyll theme."/>
 
   <!-- Open Graph / Facebook -->
-  <meta property="og:site_name" content="Scott Xu | Blog"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:url" content="http://localhost:4000/blog"/>
-  <meta property="og:title" content="Scott Xu | Blog"/>
-  <meta property="og:description" content="Bay is a minimal Jekyll Theme."/>
+  <meta property="og:site_name" content="Scott Xu | How to config conda environment in VSCode Python extension?"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:url" content="http://localhost:4000/2021/06/20/config-conda-environment-vscode"/>
+  <meta property="og:title" content="Scott Xu | How to config conda environment in VSCode Python extension?"/>
+  <meta property="og:description" content="A look at an example post using Bay Jekyll theme."/>
   <meta property="og:image" content="http://localhost:4000/assets/img/profile-pic.jpg"/>
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:url" content="http://localhost:4000/blog"/>
-  <meta property="twitter:title" content="Scott Xu | Blog"/>
-  <meta property="twitter:description" content="Bay is a minimal Jekyll Theme."/>
+  <meta property="twitter:url" content="http://localhost:4000/2021/06/20/config-conda-environment-vscode"/>
+  <meta property="twitter:title" content="Scott Xu | How to config conda environment in VSCode Python extension?"/>
+  <meta property="twitter:description" content="A look at an example post using Bay Jekyll theme."/>
   <meta property="twitter:image" content="http://localhost:4000/assets/img/profile-pic.jpg"/>
   
 
   <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css"/>
-  <link rel="canonical" href="http://localhost:4000/blog"/>
+  <link rel="canonical" href="http://localhost:4000/2021/06/20/config-conda-environment-vscode"/>
   <link rel="shortcut icon" href="http://localhost:4000/favicon.ico" type="image/x-icon"/>
 
   <!-- Google Analytics -->
@@ -99,37 +99,60 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="blog">
-          <h1 class="page-heading">Blog</h1>
+        <div class="post">
+
+          <header class="post-header">
+
+            
+
+            <h1 class="post-title">
+            
+              How to config conda environment in VSCode Python extension?
+            
+            </h1>
+
+            
+            <p class="post-meta"><span class="post-date">June 20, 2021
+            </span></p>
+          </header>
+
+          <article class="post-content">
+            <p>The Python extension of VSCode may not be able to find the conda extension and especially, its virtual environment. 
+As a frantic of VSCode, I’ve struggled a while to configurate the extension and hope that the following suggestions are 
+helpful.</p>
+
+<p>First, click the gear-like button in the left lower corner of the VSCode to open up the setting page. Enter ‘python’ 
+and click ‘edit in settings.json’. This will open the configuration file for Python extension in VSCode.</p>
+
+<p>Here’s the <strong>most important step</strong>: add the following lines inside the outermost curly brackets:</p>
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">    </span><span class="nl">"python.experiments.enabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="err">,</span><span class="w">
+    </span><span class="nl">"python.experiments.optInto"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+        </span><span class="s2">"pythonDiscoveryModule"</span><span class="w">
+    </span><span class="p">]</span><span class="w">
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">4</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">'Yes'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">function</span> <span class="nx">sayHello</span><span class="p">(</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">name</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello World</span><span class="dl">'</span><span class="p">);</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">`Hello </span><span class="p">${</span><span class="nx">name</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+  <span class="p">}</span>  
+<span class="p">}</span>  </code></pre></figure>
+
+<p>Restart the VSCode and you should see virtual environments also appearing in the list where you used to select Python environment.</p>
+
+<p>In this configuration file, you can also change the <code class="language-plaintext highlighter-rouge">python.defaultInterpreterPath</code> if needed to set a default python executable every time you 
+open VSCode.</p>
+
+          </article>
+
           
 
-
-          <p class="blog-post-list">
-            
-
-              
-                <span class="blog-post-date">June 20, 2021</span>
-                <a href="http://localhost:4000/2021/06/20/config-conda-environment-vscode" class="blog-post-title">
-                  How to config conda environment in VSCode Python extension?
-                </a>
-                <br />
-
-              
-
-            
-
-              
-                <span class="blog-post-date">October 26, 2019</span>
-                <a href="http://localhost:4000/2019/10/26/example-of-blog-post" class="blog-post-title">
-                  Post example
-                </a>
-                <br />
-
-              
-
-            
-          </p>
-        </div>
+      </div>
       </div>
     </div>
 
