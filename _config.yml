@@ -1,0 +1,59 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+title: Scott Xu
+description: >- # this means to ignore newlines until "baseurl:"
+  Bay is a minimal Jekyll Theme.
+baseurl: "/personal_website" # the subpath of the site
+url: "scottxu.github.io" # the base hostname & protocol for the site
+og_image: /assets/img/profile-pic.jpg
+google_analytics: "UA-121636368-3"
+
+header:
+  pages:
+    - name: Home
+      slug: /
+    - name: Blog
+    - name: Projects
+    - name: Work
+
+footer:
+  show_powered_by: false
+  contact:
+    - name: Email
+      value: scottxu@stanford.edu
+      link: mailto:scottxu@stanford.edu
+    - name: WeChat
+      value: scottxu9375
+      link: "#"
+  follow:
+    - name: Facebook
+      link: http://facebook.com/scottxu0520
+    - name: LinkedIn
+      link: http://linkedin.com/in/zichuanscottxu
+    - name: GitHub
+      link: http://github.com/zichuan-scott-xu
+
+
+# Build settings
+markdown: kramdown
+sass:
+    style: :compressed
+plugins:
+  - jekyll-feed
+
+# Excluded items
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - feed.xml
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Used for defeating caching
+version: 1
