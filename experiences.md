@@ -14,7 +14,7 @@ items:
     image:
       src: /assets/img/experiences/deepwisdom.jpeg
       alt: DeepWisdom company
-    description: 'I worked in <//a href="fuzhi.ai">DeepWisdom</a>, a Auto Machine Learning -driven startup company in Shenzhen, China.'
+    description: 'I worked in <a href="//fuzhi.ai">DeepWisdom</a>, a Auto Machine Learning -driven startup company in Shenzhen, China.'
 
   - title: Ross Mathematics Program
     image:
