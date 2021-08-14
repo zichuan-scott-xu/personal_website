@@ -14,9 +14,10 @@ header:
   pages:
     - name: Home
       slug: /
+    - name: Projects
+    - name: Experiences
     - name: Blog
-    # - name: Projects
-    # - name: Work
+
 
 footer:
   show_powered_by: false

@@ -6,8 +6,8 @@ profile_picture:
 ---
 
 <p>
-  I am Scott Xu, an undergraduate student majoring in Mathematics and Computer Science at Stanford University. My interests 
-  range from pure mathematics to mahcine learning. See my blogs for more! (developing...)
+  I am Scott Xu, an undergraduate student majoring in Computer Science and Mathematics at Stanford University. My interests 
+  range from creating cool apps, applying AI for social good, computer graphics, and algebraic number theory... and more! 
 </p>
 
 <p>
