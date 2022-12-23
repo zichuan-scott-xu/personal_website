@@ -11,5 +11,5 @@ profile_picture:
 </p>
 
 <p>
-  I will intern at Google as a software engineer in Summer 2022. I was previously an undergraduate research intern at <a href="http://snap.stanford.edu/">Stanford's SNAP group</a>.
+  I will intern at IMC Trading as a quantitative researcher in Summer 2023. I previously interned at Google in Summer 2022 and <a href="http://snap.stanford.edu/">Stanford's SNAP group</a> in 2021.
 </p>

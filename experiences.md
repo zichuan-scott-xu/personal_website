@@ -3,6 +3,12 @@ layout: work # will change to experience.html template in the future
 title: Experiences
 slug: /experiences
 items:
+  - title: Software Engineering Intern, Google
+    image: 
+      src: /assets/img/experiences/google.jpeg
+      alt: google
+    description: 'Worked with Kubeflow Pipelines group to support authoring machine learning pipelines. '
+
   - title: Undergraduate Research Intern, Stanford SNAP Group
     image: 
       src: /assets/img/experiences/snap.png
