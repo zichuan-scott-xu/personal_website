@@ -12,8 +12,11 @@
           {{ content }}
 
           <p class="blog-post-list">
+            {% assign psize = site.posts | size %}
+            {% if psize == 0 %} 
+              <p>More coming out in 2023.</p>
+            {% endif %}
             {% for post in site.posts %}
-
               {% if post.draft != true %}
                 <span class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
                 <a href="{{ post.url | replace:".html","" | prepend: site.url }}" class="blog-post-title">
