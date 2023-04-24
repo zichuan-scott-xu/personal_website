@@ -10,8 +10,12 @@
     <div class="page-content">
       <div class="wrapper">
         <div class="work">
-          <h1 class="page-heading">{{ page.title }}</h1>
+          <div>
+            {{ page.intro }}
+          </div>
+          <br>
           {{ content }}
+          <h1 class="page-heading">{{ page.title }}</h1>
 
           {% for item in page.items %}
           <div class="work-item">
@@ -27,6 +31,7 @@
             </span>
           </div>
           {% endfor %}
+
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ items:
     image: 
       src: /assets/img/experiences/google.jpeg
       alt: google
-    description: 'Worked with Kubeflow Pipelines group to support authoring machine learning pipelines. '
+    description: 'Worked with <a href="https://github.com/kubeflow/pipelines">Kubeflow Pipelines</a> group to support authoring machine learning pipelines. '
 
   - title: Undergraduate Research Intern, Stanford SNAP Group
     image: 
