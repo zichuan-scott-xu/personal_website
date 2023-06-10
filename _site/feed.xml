@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-23T23:49:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Scott Xu</title><subtitle>Bay is a minimal Jekyll Theme.</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-06-10T01:37:51-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Scott Xu</title><subtitle>Bay is a minimal Jekyll Theme.</subtitle><entry><title type="html">A continuing roadmap to learn (and use) Typst</title><link href="http://localhost:4000/2023/06/09/typst.html" rel="alternate" type="text/html" title="A continuing roadmap to learn (and use) Typst" /><published>2023-06-09T18:25:00-07:00</published><updated>2023-06-09T18:25:00-07:00</updated><id>http://localhost:4000/2023/06/09/typst</id><content type="html" xml:base="http://localhost:4000/2023/06/09/typst.html">&lt;p&gt;Below is an updating list of useful sources I found while switching my note-writing experiences 
+from LaTeX to &lt;a href=&quot;https://github.com/typst/typst&quot;&gt;typst&lt;/a&gt;, a new markup-based type-setting system that 
+use easier syntactic sugars. It might be helpful if you are tired of typing backslashes and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;\backslash&lt;/code&gt;es.&lt;/p&gt;
+
+&lt;h3 id=&quot;templates&quot;&gt;Templates&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The go-to template (and my favorite template) for writing a note. It also supports changing the “depth” of theorem numbering just by a single parameter pass, which I think is used quite often in writing math notes: &lt;a href=&quot;https://github.com/sahasatvik/typst-theorems&quot;&gt;typst-theorems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The official template directory, good for publications: &lt;a href=&quot;https://github.com/typst/templates&quot;&gt;typst/templates&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Drawing: &lt;a href=&quot;https://github.com/johannes-wolf/typst-canvas/tree/master&quot;&gt;typst-canvas&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Commutative diagrams (Apr 2023): &lt;a href=&quot;https://gitlab.com/giacomogallina/typst-cd&quot;&gt;typst-cd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Below is an updating list of useful sources I found while switching my note-writing experiences from LaTeX to typst, a new markup-based type-setting system that use easier syntactic sugars. It might be helpful if you are tired of typing backslashes and \backslashes.</summary></entry></feed>
