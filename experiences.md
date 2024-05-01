@@ -1,11 +1,11 @@
 ---
-layout: work # will change to experience.html template in the future
+layout: work
 title: Experiences
 slug: /experiences
 items:
   - title: Quantitative Researcher Intern, IMC Trading 
     image: 
-      src: /assets/img/experiences/imc.jpeg
+      src: /assets/img/experiences/imc.jpg
       alt: IMC Trading
     description: 'Researched and implemented algorithms for improving high-frequency pricing valuations for US Treasury Bonds.'
 
@@ -24,9 +24,9 @@ items:
 
   - title: Software Engineering Internship, DeepWisdom
     image:
-      src: /assets/img/experiences/deepwisdom.jpeg
+      src: /assets/img/experiences/deepwisdom.png
       alt: DeepWisdom company
-    description: 'I worked in <a href="//fuzhi.ai">DeepWisdom</a>, a Auto Machine Learning -driven startup company in Shenzhen, China.'
+    description: 'I worked in <a href="//metadl.com">DeepWisdom</a>, a Auto Machine Learning-driven startup company in Shenzhen, China.'
 
   - title: Ross Mathematics Program
     image:
