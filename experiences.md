@@ -3,6 +3,12 @@ layout: work # will change to experience.html template in the future
 title: Experiences
 slug: /experiences
 items:
+  - title: Quantitative Researcher Intern, IMC Trading 
+    image: 
+      src: /assets/img/experiences/imc.jpeg
+      alt: IMC Trading
+    description: 'Researched and implemented algorithms for improving high-frequency pricing valuations for US Treasury Bonds.'
+
   - title: Software Engineering Intern, Google
     image: 
       src: /assets/img/experiences/google.jpeg

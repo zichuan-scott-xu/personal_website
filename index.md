@@ -5,6 +5,6 @@ profile_picture:
   alt: website picture
 ---
 
-I am Scott Xu, an undergraduate and master student majoring in Math and Computer Science at Stanford University. My interests range from creating cool apps, applying AI models for social advancements, computer graphics in games, and algebraic number theory to be learned.
+I am Scott Xu, a Software Engineer at Meta 🛸. I obtained my B.S. in Mathematics and M.S. in Computer Science at Stanford University 🌲. My interests range from applying AI models for social advancements, cool computer graphics in game developments, and the wildness and beauty of mathematics.
 
-I will intern at IMC Trading as a quantitative researcher in Summer 2023. I previously interned at Google in Summer 2022 and <a href="http://snap.stanford.edu/">Stanford's SNAP group</a> in 2021.
+Previously, I interned at IMC Trading as a quantitative researcher in Summer 2023 and Google in Summer 2022. I was an undergraduate researcher at <a href="http://snap.stanford.edu/">Stanford's SNAP group</a> in the CURIS Program, 2021.
